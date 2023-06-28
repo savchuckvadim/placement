@@ -6,8 +6,4 @@ $result = CRest::call(
 	// {{query[params][PARAMS]}}
 );
 
-// Чтение содержимого файла index.html
-$htmlContent = file_get_contents('index.html');
 
-// Вывод содержимого файла index.html
-echo $htmlContent;
