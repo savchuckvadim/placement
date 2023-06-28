@@ -21,11 +21,7 @@ require_once(__DIR__ . '/crest.php');
 // session_start();
 // $_SESSION['PLACEMENT_OPTIONS'] = $_REQUEST['PLACEMENT_OPTIONS'];
 
-// Чтение содержимого файла index.html
-$htmlContent = file_get_contents('index.html');
-
-// Вывод содержимого файла index.html
-echo $htmlContent;
+require('index.html');
 
 ?>
 
