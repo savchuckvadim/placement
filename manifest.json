@@ -1,13 +1,13 @@
 {
-  "name": "Webpack/React/TypeScript",
-  "short_name": "Webpack",
+  "name": "April garant-konstructor",
+  "short_name": "April Kp",
   "scope": "/",
   "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f0f0f0",
   "theme_color": "#1c1c1c",
-  "description": "Webpack 5 Boilerplate for JavaScript, React & TypeScript projects",
+  "description": "Constructor for make offers",
   "icons": [
     {
       "src": "./icons/64.png",
