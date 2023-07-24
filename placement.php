@@ -21,5 +21,5 @@ require_once(__DIR__ . '/crest.php');
 // session_start();
 // $_SESSION['PLACEMENT_OPTIONS'] = $_REQUEST['PLACEMENT_OPTIONS'];
 
-include_once(__DIR__ . '/index.html');
+include '/index.html';
 ?>
