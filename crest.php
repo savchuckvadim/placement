@@ -16,6 +16,7 @@ require_once (__DIR__.'/settings.php');
  *      C_REST_IGNORE_SSL = true //turn off validate ssl by curl
  */
 
+
 class CRest
 {
 	const VERSION = '1.36';
