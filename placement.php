@@ -4,4 +4,4 @@
 require_once(__DIR__ . '/crest.php');
 ?>;
 
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>April CRM</title><script defer="defer" src="main.74330b144128ae6de82e.js"></script><link href="css/main.ecd624e4.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>April CRM</title><script defer="defer" src="main.39211e1f76501a5a1d31.js"></script><link href="css/main.ecd624e4.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
