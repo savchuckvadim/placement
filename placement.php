@@ -1,7 +1,8 @@
 <?php
+require_once(__DIR__ . '/crest.php');
 $placementOptions = [];
 if (isset($_POST['PLACEMENT']) && isset($_POST['PLACEMENT_OPTIONS'])) {
-    $placementOptionsJson = $_POST['PLACEMENT_OPTIONS'];
+    $placementOptionsJson = $_POST;
     $placementOptions = json_decode($placementOptionsJson, true);
 
     // Проверяем, успешно ли прошло декодирование JSON
@@ -27,6 +28,6 @@ $response = curl_exec($ch);
 
 curl_close($ch);
 
-require_once(__DIR__ . '/crest.php');
+
 ?>
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="//api.bitrix24.com/api/v1/"></script><title>April CRM</title><script defer="defer" src="main.d2104c5304dad5eea143.js"></script><link href="css/main.ecd624e4.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>April CRM</title><script defer="defer" src="main.d2104c5304dad5eea143.js"></script><link href="css/main.ecd624e4.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
