@@ -2,7 +2,10 @@
 require_once(__DIR__ . '/crest.php');
 $placementOptions = [];
 if (isset($_POST['PLACEMENT']) && isset($_POST['PLACEMENT_OPTIONS'])) {
-    $placementOptionsJson = $_POST;
+    $placementOptionsJson = [
+    'options' => $_POST['PLACEMENT_OPTIONS'],
+    'placement' =>  $_POST[PLACEMENT]
+    ];
     $placementOptions = json_decode($placementOptionsJson, true);
 
     // Проверяем, успешно ли прошло декодирование JSON
